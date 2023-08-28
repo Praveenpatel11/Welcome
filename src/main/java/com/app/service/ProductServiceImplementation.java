@@ -54,7 +54,7 @@ public class ProductServiceImplementation implements ProductService {
 			
 			Category secondLavelCategory=new Category();
 			secondLavelCategory.setName(req.getSecondLavelCategory());
-			secondLavelCategory.setParentCategory(topLevel);
+			
 			secondLavelCategory.setLevel(2);
 			
 			secondLevel= categoryRepository.save(secondLavelCategory);

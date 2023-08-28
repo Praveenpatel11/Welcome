@@ -111,7 +111,12 @@
     <version>1.6.4</version>
 </dependency>
 
-		
+
+		<dependency>
+			<groupId>com.zosh</groupId>
+			<artifactId>e-commerce</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 	
 
